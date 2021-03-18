@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reyesEspanoles [
-    <!ELEMENT reyesEspanoles (rey*, reina*)>
+    <!ELEMENT reyesEspanoles (rey | reina)*>
     <!ELEMENT rey (nombre, padre, madre)>
     <!ELEMENT reina (nombre, padre, madre)>
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT padre (#PCDATA)>
     <!ELEMENT madre (#PCDATA)>
 ]>
-<!-- Preguntarle al profesor por qué soy una mona y no veo este fallo :)))-->
 <reyesEspanoles>
     <rey>
         <nombre>Felipe III</nombre>

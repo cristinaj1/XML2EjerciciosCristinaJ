@@ -4,6 +4,5 @@
     <!ELEMENT letra (#PCDATA)>
 ]>
 <letras>
-    <letra>m
-    uve doble</letra>
+    <letra>m</letra>
 </letras>

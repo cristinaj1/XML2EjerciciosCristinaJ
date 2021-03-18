@@ -4,6 +4,6 @@
     <!ELEMENT animal (#PCDATA)>
 ]>
 <animales>
-    <animal>Caniche</animal>
-    <animal>Siamés</animal>
+    <animal>perro: Caniche</animal>
+    <animal>gato: Siamés</animal>
 </animales>
